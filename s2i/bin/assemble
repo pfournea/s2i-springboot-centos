@@ -6,7 +6,7 @@ echo "---> Installing application source"
 cp -Rf /tmp/src/. ./
 
 echo "---> Building Spring Boot application from source"
-  gradlew clean build
+  ./gradlew clean build
 
 # Fix source directory permissions
 fix-permissions ./
